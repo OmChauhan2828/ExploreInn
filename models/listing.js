@@ -9,6 +9,7 @@ const listingSchema = new schema({
         description: String,
         Image: {
             type: String,
+            default: "https://unsplash.com/photos/a-canal-with-boats-and-trees-in-amsterdam-ZOlCi6m5ZUo",
             set: (v) => 
                 v==""
             ? "https://unsplash.com/photos/a-canal-with-boats-and-trees-in-amsterdam-ZOlCi6m5ZUo"
